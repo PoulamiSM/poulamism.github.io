@@ -3,19 +3,9 @@ remote_theme: pages-themes/cayman@v0.2.0
 title: Hey there! I am Poulami Sinhamahapatra
 description: Researcher in Computer Vision and Safe AI
 author: Poulami Sinhamahapatra
-show_excerpts: false # Optional, disables excerpts on index page
+show_excerpts: false
 
-# Add your picture
-profile_picture: /profile_web.jpg
+profile_picture: /profile_web.jpg # or /images/profile_web.jpg
 
-# Optional: Social media links
-github_username: PoulamiSM # Replace with your GitHub username
-linkedin_username: poulami-sinhamahapatra # Replace with your LinkedIn username
-
-# Optional: Custom head content
-# head_content: |
-#   <link rel="stylesheet" href="/assets/css/custom.css">
-
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-gem "github-pages", group: :jekyll_plugins
+github_username: PoulamiSM
+linkedin_username: poulami-sinhamahapatra
