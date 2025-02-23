@@ -4,10 +4,16 @@
     ---
 
     <div class="home">
+        {% if site.profile_picture %}
+      <div style="text-align: center;">
+        <img src="{{ site.profile_picture }}" alt="Profile Picture" style="max-width: 200px; border-radius: 50%;">
+      </div>
+        {% endif %}
       <h1 class="page-heading">About Me</h1>
       <div class="bio">
         <p>
-          Your biography goes here. Highlight your research interests, expertise, and career goals.
+          I am a final year PhD candidate in Data Analytics and Machine Learning group at TUM. 
+          I have 7+ years of research experience in ML and Vision along with publications in top CV conferences and 5+ years of experience of applying safe AI-based solutions to industrial applications and use-cases at Fraunhofer IKS, Munich.
         </p>
       </div>
 
