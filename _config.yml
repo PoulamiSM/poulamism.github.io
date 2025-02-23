@@ -1,4 +1,5 @@
-theme: cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
 title: Hey there! I am Poulami Sinhamahapatra
 description: Researcher in Computer Vision and Safe AI
 author: Poulami Sinhamahapatra
@@ -14,3 +15,7 @@ linkedin_username: poulami-sinhamahapatra # Replace with your LinkedIn username
 # Optional: Custom head content
 # head_content: |
 #   <link rel="stylesheet" href="/assets/css/custom.css">
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+gem "github-pages", group: :jekyll_plugins
