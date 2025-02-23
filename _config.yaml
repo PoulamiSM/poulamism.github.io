@@ -1,0 +1,16 @@
+theme: cayman
+title: Hey there! I am Poulami Sinhamahapatra
+description: My research and professional website.
+author: Poulami Sinhamahapatra
+show_excerpts: false # Optional, disables excerpts on index page
+
+# Add your picture
+profile_picture: /images/profile.jpg
+
+# Optional: Social media links
+github_username: yourgithubusername # Replace with your GitHub username
+linkedin_username: yourlinkedinusername # Replace with your LinkedIn username
+
+# Optional: Custom head content
+# head_content: |
+#   <link rel="stylesheet" href="/assets/css/custom.css">
